@@ -1,0 +1,3 @@
+include ':fontawesome'
+include ':app'
+rootProject.name = "android-fontawesome"

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">android-fontawesome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Font Awesome</string>
+    <string name="nav_header_subtitle">fontawesome.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_regular_icons">REGULAR ICONS</string>
+    <string name="lbl_solid_icons">SOLID ICONS</string>
+    <string name="lbl_brand_icons">BRAND ICONS</string>
+</resources>

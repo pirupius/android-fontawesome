@@ -4,10 +4,22 @@ Android library to use the [Font Awesome](https://fontawesome.com/icons) Icon co
 
 How to Use
 -------------
-Include the `fontawesome` dependency in app's **build.gradle** and that's all.
+Step 1: Make sure you have maven configured with jitpack in your root level by adding it in your root build.gradle at the end of repositories:                                                                       
+
+```
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Step 2: Add the dependency:
+
 ```gradle
 dependencies {
-    implementation 'com.pirumart.fontawesome:fontawesome:1.0.0'
+    implementation 'com.github.pirupius:android-fontawesome:v1.0.0'
 }
 ```
 

@@ -1,3 +1,7 @@
+<p align="center">
+    [![](https://jitpack.io/v/pirupius/android-fontawesome.svg)](https://jitpack.io/#pirupius/android-fontawesome)
+</p>
+
 Font Awesome Icons for Android 
 ===================
 Android library to use the [Font Awesome](https://fontawesome.com/icons) Icon collection in your android apps.
@@ -7,12 +11,23 @@ How to Use
 Step 1: Make sure you have maven configured with jitpack in your root level by adding it in your root build.gradle at the end of repositories:                                                                       
 
 ```
-    allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+OR for maven
+
+```
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
 ```
 
 Step 2: Add the dependency:
@@ -21,6 +36,16 @@ Step 2: Add the dependency:
 dependencies {
     implementation 'com.github.pirupius:android-fontawesome:v1.0.0'
 }
+```
+
+OR for maven
+
+```
+<dependency>
+    <groupId>com.github.pirupius</groupId>
+    <artifactId>android-fontawesome</artifactId>
+    <version>v1.0.0</version>
+</dependency>
 ```
 
 Referring Icon:
